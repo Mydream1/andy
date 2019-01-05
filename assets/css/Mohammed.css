@@ -1,0 +1,171 @@
+body{
+	font-family: Lato;
+}
+
+main{
+	background-color: rgba(245,248,250,1);
+}
+
+main section, 
+main section:last-child{
+	background-color: #fff;
+}
+
+main.lanidng-page h1.f-h{
+	color: rgb(31,46,73);
+    font-weight: 700;
+}
+
+.navbar-nav li.nav-item:last-child .nav-link{
+	background-color: rgb(89,143,142);
+}
+
+.fa-star-o{
+	color: rgba(168,168,168, 1);
+}
+
+main.lanidng-page .block-intro .btn-f{
+	color: #fff;
+    background-color: rgba(168,168,168, 1);
+    border-color: transparent !important;
+    border-radius: 5px;
+    width: 200px;
+    font-weight: 700;
+    line-height: 10px;
+}
+main.lanidng-page .hotel{
+	color: rgba(168,168,168, 1);
+    font-weight: 300;
+
+}
+
+main.lanidng-page .mx-3 i.fa-star{
+	color: rgba(255,255,0,1);
+}
+
+main.lanidng-page .btn-justify{
+	color: #fff;
+    font-weight: 700;
+    background-color: rgba(114, 175, 15, 1);
+    border-color: transparent !important;
+    border-radius: 0;
+    width: 200px;
+}
+
+.c-weak{
+	color: rgb(163,172,189);
+	font-weight: 400;
+}
+.c-strong,
+.card-counter .count-numbers{
+	color: rgb(31,46,73);
+	font-size: 1.5rem;
+	font-weight: 600;
+
+}
+
+content section{
+	border:1px solid rgb(163,172,189);
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active{
+	border: none;
+    border-bottom: 2px solid green;
+}
+.portfolio-block.block-intro {
+  text-align: center;
+}
+
+.img-cotent {
+  width: 200px;
+  height: auto;
+}
+
+.gradient {
+  background: linear-gradient(-5deg,rgba(133, 151, 156, 1),rgba(89, 141, 143, 1));
+  color: #fff;
+}
+
+.card .card-header{
+	background-color: rgba(107,142,141,1);
+}
+
+.card .card-header a{
+	color: #fff;
+}
+
+.card .last-card{
+	background-color: rgba(168,168,168, 1);
+	color: #fff;
+}
+
+aside .card .btn-f{
+	color: #fff;
+    background-color: rgba(225,20,61,1);
+    border-radius: 5px;
+}
+
+aside .card .btn-s{
+	color: rgb(163,172,189);
+    background-color: transparent !important;
+    border-color: rgb(31,46,73);
+    border-radius: 5px;
+}
+
+aside .card .stars{
+	color: #ffff00;
+	font-size: 1.5em;
+}
+
+aside .card div.stars + p{
+
+	border-top: 1px solid rgb(163,172,189);
+    border-bottom: 1px solid rgb(163,172,189);
+
+}
+
+
+.card-counter{
+    box-shadow: 1px 1px 2px #DADADA;
+    margin: 5px;
+    padding: 20px 10px;
+    background-color: #fff;
+    border: 1px solid rgb(163,172,189);
+    border-radius: 2px;
+  }
+
+  .card-counter:hover{
+    box-shadow: 4px 4px 20px #DADADA;
+    transition: .3s linear all;
+  }
+
+  .card-counter.primary{
+    background-color: #007bff;
+    color: #FFF;
+  }
+
+  .card-counter.danger{
+    background-color: #ef5350;
+    color: #FFF;
+  }  
+
+  .card-counter.success{
+    background-color: #66bb6a;
+    color: #FFF;
+  }  
+
+  .card-counter.info{
+    background-color: #26c6da;
+    color: #FFF;
+  }  
+
+  .card-counter i{
+    font-size: 5em;
+    opacity: 0.2;
+  }
+
+  .card-counter .count-numbers,
+  .card-counter .count-name{
+    text-align: center;
+  }

@@ -1,0 +1,15 @@
+.gift__rating i {
+  color: #FFD700;
+  font-size: 20px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.h1, h1 {
+  font-size: 1.5rem;
+}
+
+.col.col-md-6 {
+  padding-top: 20px;
+}
+
